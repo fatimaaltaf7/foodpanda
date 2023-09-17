@@ -1,0 +1,59 @@
+:root{
+    ---primary-color:  #dc3545 ;
+    ---secondary-color:#ffff;
+}
+
+
+.header{
+    height: 80px;
+    box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.12) ;
+
+}
+.navbar{
+    box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.12) ;
+ 
+}
+
+
+.navbar-brand a{
+    text-decoration: none;
+    color: var(---primary-color);
+
+} 
+.header-text-1{
+    color: var(---primary-color);
+  font-size: 30px;
+  font-weight: 600px;
+}
+.card {
+    position:relative;
+    margin-left: 500px;
+    margin-right: 500px;
+    box-shadow:  0 2px 28px 0 rgba(0, 0, 0, 0.12) ;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.card-header{
+    size: 100px;
+}
+
+.fb1 .fb{
+    background: #1e50e7;
+}
+
+.goo1 .goole{
+    background-color: #de2199;
+
+}
+.app1 .appie{
+    background-color: black;
+}
+
+.term a{
+    text-decoration: none;
+    color: grey;
+}
+.term a:hover{
+    color: var(---primary-color);
+}
